@@ -16,7 +16,6 @@ int main()
     std::wcout.imbue( std::locale( ) );
     std::wcerr.imbue( std::locale( ) );
 
-    std::wcout << L'Ж' << std::endl;
     //              0123456789012345678901234567890123456789
     std::wcout << L"English      Decimal   Hex       Oct       " << std::endl;
     std::wstring EnglishUpper;
